@@ -1,0 +1,29 @@
+{% include pagehead.html %}
+{% include header.html %}
+
+<article class="bookIndex">
+
+  <div class="row">
+    <div class="twelve columns">
+
+<h1>{{ page.title }}</h1>
+
+<p>作者：　　<a href="http://grahamle.github.io/">左银右煌</a></p>
+
+<aside class="annoucement">
+
+<p>重要说明：本文档目前已翻了两章。</p>
+
+</aside> 
+
+{% include toc.html %}
+	
+{{ content }}
+    </div>
+  </div>
+</article>
+
+{% include footer.html %}
+
+</body>
+</html>

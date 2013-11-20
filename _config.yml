@@ -1,0 +1,28 @@
+baseurl: /grahamle.github.io/webapp-ng
+markdown: rdiscount
+pygments: true
+permalink: none
+sitename: 使用AngularJS开发web-app
+
+chapters:
+- ngzend
+- build
+- stateview
+- controllers
+- directives
+- filters
+- services
+- reader
+- shelf
+- Documents
+
+ngzend: AngularJS之道
+build: 构建流程
+stateview: 状态切换
+controllers: 控制器
+directives: 指令集
+filters: 过滤器
+services: 依赖服务
+reader: 第二界面视图
+shelf: 书架界面视图
+Documents: 教材仓库
