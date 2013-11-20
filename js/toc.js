@@ -79,7 +79,7 @@ $.fn.toc = function(options) {
       //build TOC item
       var a = $('<a/>')
         .text(opts.headerText(i, heading, $h))
-        .attr('href', '#' + opts.anchorName(i, heading, opts.prefix))
+        .attr('href', 'webapp-ng' + '#' + opts.anchorName(i, heading, opts.prefix))
         .bind('click', function(e) { 
           scrollTo(e);
           el.trigger('selected', $(this).attr('href'));
