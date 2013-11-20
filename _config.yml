@@ -1,4 +1,4 @@
-baseurl: /grahamle.github.io/webapp-ng
+baseurl: /webapp-ng/
 markdown: rdiscount
 pygments: true
 permalink: none
