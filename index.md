@@ -1,6 +1,6 @@
 ---
 layout: homepage
-title: 项目代码说明文档（alpha）
+title: 利用AngularJS开发web app [译]
 date: 2013-11-11
 modifiedOn: 2013-11-14
 ---
